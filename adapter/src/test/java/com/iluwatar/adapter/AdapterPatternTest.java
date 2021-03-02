@@ -65,7 +65,7 @@ public class AdapterPatternTest {
    */
   @Test
   public void testAdapter() {
-    var captain = (Captain) beans.get(ROWING_BEAN);
+    var captain = (Captain) beans.get(ROWING_BEAN); 
 
     // when captain moves
     captain.row();
